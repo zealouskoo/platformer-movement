@@ -15,8 +15,15 @@ public class PlayerMovement : MonoBehaviour
 	//just paste in all the parameters, though you will need to manuly change all references in this script
 	public PlayerData Data;
 
+
+	#region DEBUG PARAMETERS
+#if UNITY_EDITOR
+	public float MoveInputLineLength = 2f;
+#endif
+	#endregion
+
 	#region COMPONENTS
-    public Rigidbody2D RB { get; private set; }
+	public Rigidbody2D RB { get; private set; }
 	//Script to handle all player animations, all references can be safely removed if you're importing into your own project.
 	public PlayerAnimator AnimHandler { get; private set; }
 	#endregion
@@ -353,9 +360,9 @@ public class PlayerMovement : MonoBehaviour
 
 		//Gets an acceleration value based on if we are accelerating (includes turning) 
 		//or trying to decelerate (stop). As well as applying a multiplier if we're air borne.
-		if (LastOnGroundTime > 0)
+		if (LastOnGroundTime > 0)//on ground
 			accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? Data.runAccelAmount : Data.runDeccelAmount;
-		else
+		else//in the air
 			accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? Data.runAccelAmount * Data.accelInAir : Data.runDeccelAmount * Data.deccelInAir;
 		#endregion
 
@@ -513,7 +520,7 @@ public class PlayerMovement : MonoBehaviour
 		}
 	
 		//Works the same as the Run but only in the y-axis
-		//THis seems to work fine, buit maybe you'll find a better way to implement a slide into this system
+		//This seems to work fine, but maybe you'll find a better way to implement a slide into this system
 		float speedDif = Data.slideSpeed - RB.velocity.y;	
 		float movement = speedDif * Data.slideAccel;
 		//So, we clamp the movement here to prevent any over corrections (these aren't noticeable in the Run)
@@ -523,7 +530,6 @@ public class PlayerMovement : MonoBehaviour
 		RB.AddForce(movement * Vector2.up);
 	}
     #endregion
-
 
     #region CHECK METHODS
     public void CheckDirectionToFace(bool isMovingRight)
@@ -572,7 +578,6 @@ public class PlayerMovement : MonoBehaviour
 	}
     #endregion
 
-
     #region EDITOR METHODS
     private void OnDrawGizmosSelected()
     {
@@ -583,6 +588,13 @@ public class PlayerMovement : MonoBehaviour
 		Gizmos.DrawWireCube(_backWallCheckPoint.position, _wallCheckSize);
 	}
     #endregion
+
+    private void OnDrawGizmos() {
+		if (Application.isPlaying) {
+			Gizmos.color = Color.red;
+			Gizmos.DrawLine(transform.position, transform.position + new Vector3(_moveInput.x, _moveInput.y,0) * MoveInputLineLength);
+		}
+    }
 }
 
 // created by Dawnosaur :D
