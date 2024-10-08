@@ -20,10 +20,10 @@ public class PlayerMovement : MonoBehaviour
 #if UNITY_EDITOR
 	public float MoveInputLineLength = 2f;
 #endif
-	#endregion
+    #endregion
 
-	#region COMPONENTS
-	public Rigidbody2D RB { get; private set; }
+    #region COMPONENTS
+    public Rigidbody2D RB { get; private set; }
 	//Script to handle all player animations, all references can be safely removed if you're importing into your own project.
 	public PlayerAnimator AnimHandler { get; private set; }
 	#endregion
@@ -69,18 +69,18 @@ public class PlayerMovement : MonoBehaviour
 
 	#region CHECK PARAMETERS
 	//Set all of these up in the inspector
-	[Header("Checks")] 
+	//[Header("Checks")] 
 	[SerializeField] private Transform _groundCheckPoint;
 	//Size of groundCheck depends on the size of your character generally you want them slightly small than width (for ground) and height (for the wall check)
 	[SerializeField] private Vector2 _groundCheckSize = new Vector2(0.49f, 0.03f);
-	[Space(5)]
+	//[Space(5)]
 	[SerializeField] private Transform _frontWallCheckPoint;
 	[SerializeField] private Transform _backWallCheckPoint;
 	[SerializeField] private Vector2 _wallCheckSize = new Vector2(0.5f, 1f);
     #endregion
 
     #region LAYERS & TAGS
-    [Header("Layers & Tags")]
+    //[Header("Layers & Tags")]
 	[SerializeField] private LayerMask _groundLayer;
 	#endregion
 
