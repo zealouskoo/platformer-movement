@@ -586,15 +586,16 @@ public class PlayerMovement : MonoBehaviour
 		Gizmos.color = Color.blue;
 		Gizmos.DrawWireCube(_frontWallCheckPoint.position, _wallCheckSize);
 		Gizmos.DrawWireCube(_backWallCheckPoint.position, _wallCheckSize);
-	}
-    #endregion
 
-    private void OnDrawGizmos() {
-		if (Application.isPlaying) {
-			Gizmos.color = Color.red;
-			Gizmos.DrawLine(transform.position, transform.position + new Vector3(_moveInput.x, _moveInput.y,0) * MoveInputLineLength);
-		}
+        if (Application.isPlaying) {
+            Gizmos.color = Color.red;
+            Vector3 v = transform.position + new Vector3(_moveInput.x, _moveInput.y,0) * MoveInputLineLength;
+
+            Gizmos.DrawLine(transform.position, v);
+            Gizmos.DrawCube(v, Vector3.one * .2f);
+        }
     }
+    #endregion
 }
 
 // created by Dawnosaur :D

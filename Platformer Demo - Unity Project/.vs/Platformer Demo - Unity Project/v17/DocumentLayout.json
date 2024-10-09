@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\",
+  "WorkspaceRootPath": "C:\\Users\\allen\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F0C8EAB-6CA0-6DAA-1A55-4F07EADE3410}|Assembly-CSharp-Editor.csproj|d:\\projects\\unity\\platformer-movement\\platformer demo - unity project\\assets\\scripts\\editor\\playermovementeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F0C8EAB-6CA0-6DAA-1A55-4F07EADE3410}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\scripts\\editor\\playermovementeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1E8861B-B47A-AD18-FD0B-2C5D0901D89B}|Assembly-CSharp.csproj|D:\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1E8861B-B47A-AD18-FD0B-2C5D0901D89B}|Assembly-CSharp.csproj|c:\\users\\allen\\projects\\unity\\platformer-movement\\platformer demo - unity project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1E8861B-B47A-AD18-FD0B-2C5D0901D89B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1E8861B-B47A-AD18-FD0B-2C5D0901D89B}|Assembly-CSharp.csproj|d:\\projects\\unity\\platformer-movement\\platformer demo - unity project\\assets\\scripts\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F0C8EAB-6CA0-6DAA-1A55-4F07EADE3410}|Assembly-CSharp-Editor.csproj|c:\\users\\allen\\projects\\unity\\platformer-movement\\platformer demo - unity project\\assets\\scripts\\editor\\playermovementeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F0C8EAB-6CA0-6DAA-1A55-4F07EADE3410}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\scripts\\editor\\playermovementeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E8861B-B47A-AD18-FD0B-2C5D0901D89B}|Assembly-CSharp.csproj|C:\\Users\\allen\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\assets\\scripts\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1E8861B-B47A-AD18-FD0B-2C5D0901D89B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -21,56 +21,53 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 262,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\allen\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\allen\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T06:20:57.852Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerAnimator.cs",
-              "DocumentMoniker": "D:\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\PlayerAnimator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnimator.cs",
-              "ToolTip": "D:\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\PlayerAnimator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerAnimator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:06:38.274Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerMovementEditor.cs",
-              "DocumentMoniker": "D:\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\Editor\\PlayerMovementEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Editor\\PlayerMovementEditor.cs",
-              "ToolTip": "D:\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\Editor\\PlayerMovementEditor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Editor\\PlayerMovementEditor.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwGAAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PlayerAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\allen\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\PlayerAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnimator.cs",
+              "ToolTip": "C:\\Users\\allen\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\PlayerAnimator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T11:46:20.849Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2024-10-08T12:06:38.274Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "D:\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAjAAAAAAAAAA==",
+              "Title": "PlayerMovementEditor.cs",
+              "DocumentMoniker": "C:\\Users\\allen\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\Editor\\PlayerMovementEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Editor\\PlayerMovementEditor.cs",
+              "ToolTip": "C:\\Users\\allen\\Projects\\Unity\\platformer-movement\\Platformer Demo - Unity Project\\Assets\\Scripts\\Editor\\PlayerMovementEditor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Editor\\PlayerMovementEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T11:35:32.887Z",
+              "WhenOpened": "2024-10-08T11:46:20.849Z",
               "EditorCaption": ""
             }
           ]

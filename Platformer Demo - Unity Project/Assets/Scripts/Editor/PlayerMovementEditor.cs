@@ -20,14 +20,17 @@ public class PlayerMovementEditor : Editor
 
     readonly GUIContent m_MoveInputLineLengthContent = new GUIContent("Input Direction Length");
 
-    //Debugs GUIContents
+    #region GUIContents
+    //Debugs
     readonly GUIContent m_groundCheckPointContent = new GUIContent("Ground CheckPoint");
     readonly GUIContent m_groundCheckSizeContent = new GUIContent("Ground CheckSize");
     readonly GUIContent m_frontWallCheckPointContent = new GUIContent("Front Wall CheckPoint");
     readonly GUIContent m_backWallCheckPointContent = new GUIContent("Back Wall CheckPoint");
     readonly GUIContent m_wallCheckSizeContent = new GUIContent("Wall Check Size");
 
-    readonly GUIContent m_groundLayerContent = new GUIContent("Ground Layer");
+    //Grounds & Layers
+    readonly GUIContent m_groundLayerContent = new GUIContent("Ground Layer"); 
+    #endregion
 
     //Foldout Parameters
     bool m_DebugsFoldout;
